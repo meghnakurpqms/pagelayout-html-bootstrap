@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>PW1</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		
+		<style>
+			header{
+				background-color: #b3b3b3;
+				padding: 30px;
+				text-align: center;
+				font-size: 35px;
+				color: white;
+				font-family: Cambria;
+			}
+			section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  
+  
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+footer {
+  background-color: #b3b3b3;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.columnleft{
+	width: 15%;
+	border-right-color: #7f7f7f;
+	padding-left: 10px;
+	padding-top: 10px;
+	border-style: solid;
+	border-color: #b3b3b3;
+	border-bottom-style: none;
+	border-top-style: none;
+}
+.columnright
+{
+	width: 85%;
+	padding: 20px;
+	
+}
+
+article {
+  float: right;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  border-left-color: #b3b3b3
+  height: 300px; /* only for demonstration, should be removed */
+}
+img{
+	float: left;
+	padding-right: 20px;
+}
+p{
+	text-align: left;
+	font-family: Cambria;
+}
+.London{
+	padding: 30px;
+	padding-bottom: 70px;
+}
+.Paris
+{
+	padding-top: 70px;
+	padding: 30px;
+}
+.Tokyo
+{
+	padding: 30px;
+	padding-bottom: 40px;
+	padding-top: 0px;
+}
+.h3{
+	font-family: Cambria, Georgia, serif; font-size: 24px; 
+}
+.h6{font-family: Cambria, Georgia, serif;}
+.heading
+{
+	font-family: Cambria, Georgia, serif; font-size: 24px; 
+	padding-top: 20px;
+}
+
+.l1
+{color: #731a85}
+		</style>
+	</head>
+	<body>
+	<header>
+	<h2>City Gallery</h2>
+	</header>
+	<section>
+	<div class="row">
+  <div class="columnleft">
+    <ul class="leftcol">
+      <li><a href="#London" class="l1">London</a></li>
+      <li><a href="#Paris" class="l1">Paris</a></li>
+      <li><a href="#Tokyo" class="l1">Tokyo</a></li>
+    </ul>
+  </div>
+  <div class="columnright">
+  <nav>
+  	<div class="topnav">
+  <a href="#London">London</a>
+  <a href="#Paris">Paris</a>
+  <a href="#Tokyo">Tokyo</a>
+</div>
+  </nav>
+  <div class="London" >
+    
+    <p class="heading"id="London"><b>London</b></p>
+    <p><img src="london.jpg" alt="London eye"/>             London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    </div>
+  
+    <div class="Paris" >
+    <p class="heading" id="Paris"><b>Paris</b></p>
+    <p><img src="paris.jpg", alt="Paris">           Paris is the capital and the most populous city of France. It has an area of 105 km² (41 mi²) and a population in 2013 of 2,229,621 within the city limits. Paris was founded in the 3rd century BC by a Celtic people called the Parisii, who gave the city its name. By the 12th century, Paris was the largest city in the western world, a prosperous trading center, and the home of the University of Paris, one of the oldest universities in history. At 17th century is the capital of Europe's major power. In the 18th century, it was the center stage of the French Revolution, and was an important center of finance, commerce, fashion, science, and the arts, a position it still retains today.</p>
+    </div>
+    <div class="Tokyo" >
+    <p class="heading" id="Tokyo"><b>Tokyo</b></p>
+    <p><img src="tokyo.jpg" alt="Tokyo">          Tokyo, officially Tokyo is one of the 47 prefectures of Japan, and is both the capital and most populous city of Japan. The Greater Tokyo Area is the most populous metropolitan area in the world.</p>
+    </div>
+    </div>
+    </div>
+  </section>
+  <footer>
+  <h6> CS6314.002-Practice Work 1<h6>
+</footer>
+
+		
+
+	</body>
+</html>
